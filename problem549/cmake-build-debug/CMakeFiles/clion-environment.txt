@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@D:\software\editor\codeblocks\MinGW
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/software/editor/apps/CLion/ch-0/213.6777.58/bin/ninja/win/ninja.exe
