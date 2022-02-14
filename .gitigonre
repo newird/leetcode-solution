@@ -107,17 +107,17 @@ captures/
 
 # IntelliJ
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/gradle.xml
+**/.idea/assetWizardSettings.xml
+**/.idea/dictionaries
+**/.idea/libraries
 # Android Studio 3 in .gitignore file.
-.idea/caches
-.idea/modules.xml
+**/.idea/caches
+**/.idea/modules.xml
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
-.idea/navEditor.xml
+**/.idea/navEditor.xml
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
@@ -410,10 +410,10 @@ nbdist/
 # *.ipr
 
 # CMake
-cmake-build-*/
+**/cmake-build-*/
 
 # Mongo Explorer plugin
-.idea/**/mongoSettings.xml
+**/.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -422,7 +422,7 @@ cmake-build-*/
 out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+**/.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -550,7 +550,7 @@ target_wrapper.*
 *.qmlproject.user.*
 
 # QtCreator CMake
-CMakeLists.txt.user*
+**/CMakeLists.txt.user*
 
 # QtCreator 4.8< compilation database 
 compile_commands.json
@@ -1038,3 +1038,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+*/.idea/
