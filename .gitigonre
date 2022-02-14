@@ -1039,6 +1039,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-
-problem*/.idea/
-*/problem540/CMakeLists.txt
+problem*/
+!problem*/*.cpp
+!problem*/*.h
