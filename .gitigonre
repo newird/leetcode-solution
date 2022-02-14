@@ -1040,5 +1040,5 @@ Mkfile.old
 dkms.conf
 
 
-*/.idea/
+problem*/.idea/
 */problem540/CMakeLists.txt
