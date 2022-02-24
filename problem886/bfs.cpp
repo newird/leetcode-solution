@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-
+//#include "dfs.cpp"
 using namespace  std;
 class Solution {
 public:
@@ -32,11 +32,11 @@ public:
 
     }
 };
-
-int main() {
-    Solution s;
-    int n = 3;
-    vector<vector<int>>  dislikes {{1,2},{1,3},{2,3}};
-    cout<<s.possibleBipartition(n,dislikes);
-    return 0;
-}
+//
+//int main() {
+//    Solution2 s;
+//    int n = 3;
+//    vector<vector<int>>  dislikes {{1,2},{1,3},{2,3}};
+//    cout<<s.possibleBipartition(n,dislikes);
+//    return 0;
+//}
