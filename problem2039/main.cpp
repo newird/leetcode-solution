@@ -43,13 +43,13 @@ public:
         }
         int a;
 //        vector<int> ans(n,0);
-        for(int i = 0; i< n;++i){
+        for (int i = 0; i < n; ++i) {
             int wait_time = dis[i] << 1;
-            if(wait_time< patience[i]){
-                a = max(a,wait_time+1);
-            }else{
+            if (wait_time < patience[i]) {
+                a = max(a, wait_time + 1);
+            } else {
 //                cout<<wait_time<<" "<<patience[i]<<endl;
-                if(patience[i]) a = max(a,((wait_time<<1)-((wait_time>>1)/patience[i]-1)*patience[i] +1));
+                if (patience[i]) a = max(a, (wait_time + ((wait_time - 1) / patience[i]) * patience[i] + 1));
             }
         }
         return a;
@@ -61,8 +61,8 @@ int main() {
     Solution solution;
     vector<vector<int>> edges = {{0, 1},
                                  {1, 2}};
-    vector<int> patience = {0,2,1};
-    cout<<solution.networkBecomesIdle(edges, patience);
+    vector<int> patience = {0, 2, 1};
+    cout << solution.networkBecomesIdle(edges, patience);
 //    cout<<4/3;
     return 0;
 }
