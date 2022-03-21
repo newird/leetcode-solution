@@ -49,8 +49,8 @@ public:
 
 int main() {
     TreeNode *right = new TreeNode(3, nullptr, nullptr);
-    TreeNode *left = new TreeNode(2, nullptr, right);
-    TreeNode *root = new TreeNode(1, left, nullptr);
+    TreeNode *left = new TreeNode(2, nullptr, nullptr);
+    TreeNode *root = new TreeNode(1, left, right);
     Solution s;
     cout << s.tree2str(root);
     return 0;
