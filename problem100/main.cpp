@@ -18,7 +18,7 @@ public:
         return same(p,q);
     }
     bool same(TreeNode * p,TreeNode *q){
-        if(p == nullptr && 1 == nullptr ) return true;
+        if(p == nullptr && q == nullptr ) return true;
         if(p == nullptr || q == nullptr) return false;
         if(p->val == q->val){
             return same(p->left,q->left) && same(p->right,q->right);
