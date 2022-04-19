@@ -3,4 +3,7 @@
 **/CMakeLists.txt
 **/*.o
 **/*.exe
+**/*.cbp
+**/*.depend
+**/*.layout
 
